@@ -1,0 +1,235 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font: 14px "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+.bg-blue {
+  background-color: #00B0FF;
+}
+
+.bg-green {
+  background-color: #64DD17;
+}
+
+.bg-orange {
+  background-color: #FFAB00;
+}
+
+.bg-white {
+  background-color: #FFF;
+  box-shadow: 0 0 4px 0 #ddd;
+}
+
+.no-border {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.navbar-brand span {
+  margin: .5em;
+  color: #388E3C;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar-link {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-link li {
+  margin: 1em 0 0 0;
+}
+
+.navbar-link li a {
+  color: #388E3C;
+  font-weight: 500;
+}
+
+.navbar-link li a:hover {
+  color: #1B5E20;
+}
+
+.section {
+  position: relative;
+  top: 75px;
+}
+
+.section-header {
+  height: 175px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+.section-header h3 {
+  font-size: 28px;
+}
+
+.section-header span {
+  position: absolute;
+  right: 10em;
+  top: 15em;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-header ul {
+  display: flex;
+
+  list-style: none;
+}
+
+.section-content {
+  position: relative;
+}
+
+.section-content__item {
+  height: 8em;
+  width: 18.5em;
+  margin: 1em 0 0 0;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, .25); 
+
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 40% 60%;
+}
+
+.header__menu {
+  height: 40px;
+  position: relative;
+  top: -40px;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-pills li a {
+  margin: 2px 0 0 0;
+  color: #FFF;
+  font-weight: 500;
+}
+
+.nav-pills li .active {
+  background: transparent !important;
+  border-bottom: 5px solid #FFF;
+  border-radius: 0px;
+}
+
+.item__image {
+  overflow: hidden;
+
+  grid-column-start: 1;
+  grid-row-start: 1; 
+  grid-row-end: 3;
+}
+
+.item__image img {
+  width: auto;
+  height: 100%;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.item__name {
+  padding: 1em;
+
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.item__name span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.item__price {
+  padding: 1em;
+
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.item__price span {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.item__price img {
+  float: right;
+  width: 20px;
+  margin-top: .5em;
+}
+
+.content__chart {
+  height: 20em;
+  width: 37em;
+  padding: 1em;
+  margin: 1em 0 0 0;
+  background-color: #FFF;
+  border-radius: 1em;
+}
+
+.chart-trade {
+  height: 25em;
+}
+
+.chart-trade span {
+  margin: 0 0 .75em 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  margin: 12px;
+  width: 50%;
+
+  background-color: white;
+  border: none;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, .25);
+}
+
+.table__content td {
+  padding: 1px 12px 1px 12px;
+  vertical-align: middle;
+}
+
+.table__content td span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.table__header {
+  border-bottom: 1px solid #ddd;
+}
+
+.table__header td {
+  padding: 12px;
+}
+
+.table__header td span {
+  color: rgba(0, 0, 0, .78);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.table__title {
+  background-color: #4EBFED;
+}
+
+.table__title th h1 {
+  margin: 20px 40px 20px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
