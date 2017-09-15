@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Economic Trends | Trading Sector Visualization' });
+  res.render('index', { title: 'Trading Sector Visualization' });
 });
 
 module.exports = router;

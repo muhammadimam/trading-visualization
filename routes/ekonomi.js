@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('ekonomi', { title: 'Economic Trends | Economic Indicator Visualization' });
+  res.render('ekonomi', { title: 'Trading Sector Visualization | Economic Indicator' });
 });
 
 module.exports = router;

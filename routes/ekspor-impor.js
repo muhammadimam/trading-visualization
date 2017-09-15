@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('ekspor-impor', { title: 'Economic Trends | Indonesia Export/Import Visualization' });
+  res.render('ekspor-impor', { title: 'Trading Sector Visualization | Indonesia Export/Import' });
 });
 
 module.exports = router;
