@@ -2,8 +2,8 @@
   "name": "data-perdagangan",
   "version": "1.0.0",
   "engines": {
-    "node": "6.10.3",
-    "npm": "3.10.10"
+    "node": "6.10.x",
+    "npm": "3.10.x"
   },
   "private": true,
   "scripts": {
