@@ -2,7 +2,7 @@ var ctx = document.getElementById('medicalCareChart');
 var medicalChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni'],
+    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
     datasets: [
       {
         label: 'Medical Care',

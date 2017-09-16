@@ -2,7 +2,7 @@ var ctx = document.getElementById('educationChart');
 var educationChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni'],
+    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
     datasets: [
       {
         label: 'Education',

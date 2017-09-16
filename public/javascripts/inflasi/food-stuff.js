@@ -2,7 +2,7 @@ var ctx = document.getElementById('foodStuffChart');
 var foodStuffChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni'],
+    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
     datasets: [
       {
         label: 'Food Stuff',
