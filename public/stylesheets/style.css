@@ -91,6 +91,17 @@ body {
   position: relative;
 }
 
+.section-content .form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-content .form-group label {
+  font-weight: 600;
+  text-align: right;
+}
+
 .section-content__item {
   height: 8em;
   width: 18.5em;
@@ -171,12 +182,19 @@ body {
 }
 
 .content__chart {
-  height: 20em;
+  height: 21em;
   width: 37em;
   padding: 1em;
   margin: 1em 0 0 0;
   background-color: #FFF;
   border-radius: 1em;
+}
+
+.content__chart span {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
 
 .chart-trade {
